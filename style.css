@@ -1,0 +1,104 @@
+/* Navigation bar: set the background color, text color, and padding */
+nav {
+    background-color: rgb(122, 208, 246);
+    color: rgb(249, 251, 241);
+    padding: 10px;
+}
+
+/* Page body: set the background color and serif font */
+body {
+    background-color: aquamarine;
+    font-family: Georgia, serif;
+}
+
+/* Main heading: use white text with a gray shadow */
+h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px gray;
+}
+
+/* Navigation links: control spacing, color, and underline style */
+nav a {
+    margin-right: 16px;
+    color: #0645ad;
+    text-decoration: underline;
+}
+
+/* Page padding: keep a consistent margin around all page content */
+body {
+    padding: 16px;
+}
+
+/* Hero image: limit width, preserve aspect ratio, and add rounding and spacing */
+.hero {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 16px 0;
+    display: block;
+}
+
+/* Unordered list: set the outer margin and left indentation */
+ul {
+    margin: 16px 0 16px 24px;
+}
+
+/* List items: add vertical spacing between entries */
+li {
+    margin-bottom: 8px;
+}
+
+/* Table: collapse borders and limit the maximum width */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 500px;
+    margin: 16px 0;
+}
+
+/* Table headers and cells: set borders, padding, and left alignment */
+th, td {
+    border: 1px solid #555;
+    padding: 10px 14px;
+    text-align: left;
+}
+
+/* Table header: use the same blue background as the navigation bar */
+th {
+    background-color: rgb(122, 208, 246);
+}
+
+/* Button link: display it inline as a block and set its size and colors */
+.btn {
+    display: inline-block;
+    padding: 10px 22px;
+    background-color: #d9534f;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 16px;
+}
+
+/* Button hover state: darken the button when the pointer moves over it */
+.btn:hover {
+    background-color: #b52b27;
+}
+
+/* Mobile layout: apply these rules when the viewport is 600 pixels or narrower */
+@media (max-width: 600px) {
+    /* Reduce page padding on small screens */
+    body {
+        padding: 10px;
+    }
+
+    /* Reduce the main heading size on small screens */
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    /* Display navigation links inline with spacing on small screens */
+    nav a {
+        display: inline-block;
+        margin-bottom: 6px;
+    }
+}
